@@ -1,10 +1,6 @@
 import streamlit as st
 from typing import Generator
 from groq import Groq
-import dotenv
-
-dotenv.load_dotenv()
-
 class AhaChatApp:
     def __init__(self):
         st.set_page_config(page_icon="💬", layout="wide", page_title="@ Aha AI Chat Exam...")
